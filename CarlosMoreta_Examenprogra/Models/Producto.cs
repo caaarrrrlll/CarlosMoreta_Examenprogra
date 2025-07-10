@@ -1,6 +1,4 @@
 ﻿using SQLite;
-using SQLite.Net.Attributes;
-
 
 namespace CarlosMoreta_Examenprogra.Models
 {
