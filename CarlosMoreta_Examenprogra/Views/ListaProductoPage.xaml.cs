@@ -4,6 +4,6 @@ public partial class ListaProductoPage : ContentPage
 {
 	public ListaProductoPage()
 	{
-		InitializeComponent();
+        InitializeComponent();
 	}
 }
