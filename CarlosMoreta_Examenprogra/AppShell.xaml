@@ -4,12 +4,19 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CarlosMoreta_Examenprogra"
+    xmlns:views="clr-namespace:CarlosMoreta_Examenprogra.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="CarlosMoreta_Examenprogra">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <TabBar>
+        <Tab Title="Agregar">
+            <ShellContent ContentTemplate="{DataTemplate views:AgregarProductoPage}" />
+        </Tab>
+        <Tab Title="Lista">
+            <ShellContent ContentTemplate="{DataTemplate views:ListaProductoPage}" />
+        </Tab>
+        <Tab Title="Logs">
+            <ShellContent ContentTemplate="{DataTemplate views:LogsPage}" />
+        </Tab>
+    </TabBar>
 </Shell>
