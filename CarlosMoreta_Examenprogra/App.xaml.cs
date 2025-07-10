@@ -7,7 +7,7 @@ namespace CarlosMoreta_Examenprogra
         public static ProductoRepository ProductoRepo { get; private set; }
         public static LogService LogServicio { get; private set; }
 
-        public App(ProductoRepository repo, logServicio logService)
+        public App(ProductoRepository repo, LogService logService)
         {
             InitializeComponent();
 
